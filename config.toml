@@ -1,0 +1,44 @@
+baseURL = "yatima.io"
+languageCode = "en-us"
+title = "Yatima Inc"
+themesDir = "themes"
+theme = "hugo-hero-theme"
+
+[params]
+  google_analytics_id=""
+
+  [params.homepage_meta_tags]
+    meta_description = "Yatima Inc is developing the programming language Yatima."
+    meta_og_title = "Yatima Inc"
+    meta_og_type = "website"
+    meta_og_description = "Yatima Inc is developing the programming language Yatima."
+
+[[menu.main]]
+	name = "Services"
+	url = "/services/"
+    weight = 1
+
+[[menu.main]]
+    name = "Work"
+    url = "/work/"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+
+[[menu.main]]
+    name = "History"
+    url = "/history/"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
