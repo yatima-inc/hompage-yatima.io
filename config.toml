@@ -1,4 +1,4 @@
-baseURL = "yatima.io"
+baseURL = ""
 languageCode = "en-us"
 title = "Yatima Inc"
 themesDir = "themes"
