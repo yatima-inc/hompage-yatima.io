@@ -25,6 +25,7 @@
       '';
       project = pkgs.stdenv.mkDerivation {
         inherit name buildInputs system;
+        localSystem = system;
         src = ./.;
         configurePhase = linkThemeScript;
         buildPhase = ''
@@ -39,7 +40,7 @@
       packages.${name} = project;
       defaultPackage = self.packages.${system}.${name};
       devShell = pkgs.mkShell {
-        inherit buildInputs;
+        inherit buildInputs system;
         shellHook = linkThemeScript;
       };
 

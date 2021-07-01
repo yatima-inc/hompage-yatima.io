@@ -3,5 +3,10 @@
         "name": "Github",
         "link": "https://github.com/yatima-inc",
         "image": "social/github.svg"
+    },
+    {
+        "name": "Reddit",
+        "link": "https://reddit.com/r/yatima",
+        "image": "social/reddit.svg"
     }
 ]
