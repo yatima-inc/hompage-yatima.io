@@ -1,0 +1,59 @@
+{
+  "nodes": {
+    "hugo-theme": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1619929478,
+        "narHash": "sha256-qbzGiOoMEGCCVhUj36taRbj/H02KaJv84Y0UaJWOPMw=",
+        "owner": "zerostaticthemes",
+        "repo": "hugo-hero-theme",
+        "rev": "5651ba1cf674fde706f3a7f5ee3f71cc17396f86",
+        "type": "github"
+      },
+      "original": {
+        "owner": "zerostaticthemes",
+        "repo": "hugo-hero-theme",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1625161130,
+        "narHash": "sha256-xD1h9UB654EFT3SJO1iaP1zQ/pFsbbG3AnlEuxokLoU=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "9e2a8a2f4a93a27e005dafe0dd6ed9524cc03d2b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "hugo-theme": "hugo-theme",
+        "nixpkgs": "nixpkgs",
+        "utils": "utils"
+      }
+    },
+    "utils": {
+      "locked": {
+        "lastModified": 1623875721,
+        "narHash": "sha256-A8BU7bjS5GirpAUv4QA+QnJ4CceLHkcXdRp4xITDB0s=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "f7e004a55b120c02ecb6219596820fcd32ca8772",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
